@@ -1,0 +1,13 @@
+{
+  "role": "backend_engineer",
+  "resume_name": "backend_engineer_strong.pdf",
+  "score": 92,
+  "justification": "The candidate has strong experience in backend development, with demonstrated skills in Python, Go, Java, SQL, REST API design, and Git version control. They also have experience with cloud platforms, Docker, CI/CD pipelines, system design, microservices architecture, and message queues. However, there is no clear evidence of experience with AI-powered development tools.",
+  "gaps": [
+    "No clear evidence of experience with AI-powered development tools"
+  ],
+  "suggestions": [
+    "Can you describe your experience with AI-powered development tools such as Cursor AI, GitHub Copilot, or Claude Code?"
+  ],
+  "created_at": "2026-02-21T10:49:10.566251"
+}

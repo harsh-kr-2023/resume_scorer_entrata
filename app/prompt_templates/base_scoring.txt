@@ -1,0 +1,44 @@
+You are an expert technical recruiter evaluating a candidate's resume against a job description.
+
+## Job Description
+{jd}
+
+## Evaluation Criteria
+Must-have skills (weight: {must_have_weight}%):
+{must_have}
+
+Nice-to-have skills (weight: {nice_to_have_weight}%):
+{nice_to_have}
+
+Experience relevance weight: {experience_weight}%
+
+Additional context:
+{context}
+
+## Candidate Resume
+{resume}
+
+## Your Task
+Evaluate the resume against the job description and criteria above. Follow these steps:
+
+Step 1: For each must-have skill, determine if the resume CLEARLY demonstrates it, PARTIALLY demonstrates it, or DOES NOT demonstrate it. Cite specific evidence from the resume.
+
+Step 2: For each nice-to-have skill, determine the same.
+
+Step 3: Assess the overall relevance of the candidate's experience to this role.
+
+Step 4: Calculate a score from 0 to 100 using the weights provided.
+
+Step 5: Identify the top gaps that would prevent this candidate from succeeding in the role.
+
+Step 6: For each gap or unclear area, suggest specific questions the interviewer should ask to clarify the candidate's experience. Focus on what's missing or not clearly demonstrated in the resume.
+
+Respond ONLY with a JSON object in this exact format, no other text:
+{{
+  "score": <integer 0-100>,
+  "justification": "<2-3 sentence summary of the evaluation>",
+  "gaps": ["<gap 1>", "<gap 2>", ...],
+  "suggestions": ["<interview question 1>", "<interview question 2>", ...]
+}}
+
+Note: Suggestions should be interview questions to ask the candidate, not advice for the candidate. For example: "Ask about their experience with Kafka or other message queues" instead of "Add Kafka experience to resume".

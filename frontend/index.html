@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Matcher - AI-Powered Resume Scoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>📄 Resume Matcher</h1>
+            <p>AI-Powered Resume Scoring with GPT-4</p>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('score')">Score Resume</button>
+            <button class="tab-btn" onclick="showTab('rankings')">View Rankings</button>
+        </div>
+
+        <!-- Score Resume Tab -->
+        <div id="score-tab" class="tab-content active">
+            <div class="card">
+                <h2>Score a Resume</h2>
+                
+                <form id="score-form">
+                    <!-- File Upload -->
+                    <div class="form-group">
+                        <label for="resume">Resume (PDF)</label>
+                        <div class="file-upload" id="file-upload-area">
+                            <input type="file" id="resume" accept=".pdf" required style="display: none;">
+                            <div class="upload-content">
+                                <span class="upload-icon">📄</span>
+                                <span class="file-name" id="file-name">Click to upload or drag & drop PDF</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role Selection -->
+                    <div class="form-group">
+                        <label for="role">Job Role</label>
+                        <select id="role" required onchange="updateRoleDescription()">
+                            <option value="backend_engineer">Backend Engineer</option>
+                            <option value="frontend_engineer">Frontend Engineer</option>
+                            <option value="data_scientist">Data Scientist</option>
+                            <option value="engineering_manager">Engineering Manager</option>
+                        </select>
+                        <small class="help-text" id="role-description">
+                            Evaluates: Python/Java/Go, REST APIs, SQL, Git, Cloud platforms, Docker, CI/CD
+                        </small>
+                    </div>
+
+                    <!-- Job Description (Optional) -->
+                    <div class="form-group">
+                        <label for="jd">Additional Job Requirements <span class="optional">(Optional)</span></label>
+                        <textarea id="jd" rows="6" placeholder="Add any specific requirements beyond the standard role criteria (optional)..."></textarea>
+                        <small class="help-text">Leave empty to use only the standard criteria for the selected role.</small>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn-primary" id="submit-btn">
+                        <span id="btn-text">Score Resume</span>
+                        <span id="btn-loader" class="loader" style="display: none;"></span>
+                    </button>
+                </form>
+
+                <!-- Results Section -->
+                <div id="results" class="results" style="display: none;">
+                    <h3>Evaluation Results</h3>
+                    
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span id="score-value">0</span>
+                            <span class="score-label">/100</span>
+                        </div>
+                    </div>
+
+                    <div class="result-section">
+                        <h4>📝 Summary</h4>
+                        <p id="justification"></p>
+                    </div>
+
+                    <div class="result-section">
+                        <h4>⚠️ Gaps Identified</h4>
+                        <ul id="gaps-list"></ul>
+                    </div>
+
+                    <div class="result-section">
+                        <h4>💬 Interview Questions</h4>
+                        <ul id="suggestions-list"></ul>
+                    </div>
+                </div>
+
+                <!-- Error Message -->
+                <div id="error" class="error" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- Rankings Tab -->
+        <div id="rankings-tab" class="tab-content">
+            <div class="card">
+                <h2>Resume Rankings</h2>
+                
+                <!-- Filter -->
+                <div class="form-group">
+                    <label for="filter-role">Filter by Role</label>
+                    <select id="filter-role" onchange="loadRankings()">
+                        <option value="">All Roles</option>
+                        <option value="backend_engineer">Backend Engineer</option>
+                        <option value="frontend_engineer">Frontend Engineer</option>
+                        <option value="data_scientist">Data Scientist</option>
+                        <option value="engineering_manager">Engineering Manager</option>
+                    </select>
+                </div>
+
+                <!-- Rankings List -->
+                <div id="rankings-list">
+                    <p class="loading">Loading rankings...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Powered by OpenAI GPT-4 | <a href="http://localhost:8000/docs" target="_blank">API Docs</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

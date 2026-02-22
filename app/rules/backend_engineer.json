@@ -1,0 +1,24 @@
+{
+  "must_have": [
+    "Python or Java or Go or PHP or Laravel",
+    "REST API design and development",
+    "SQL and database design",
+    "Git version control",
+    "Data structures and algorithms"
+  ],
+  "nice_to_have": [
+    "Cloud platforms (AWS/GCP/Azure)",
+    "Docker and containerization",
+    "CI/CD pipelines",
+    "System design experience",
+    "Microservices architecture",
+    "Message queues (Kafka/RabbitMQ)",
+    "Monitoring and observability"
+  ],
+  "weights": {
+    "must_have_match": 60,
+    "nice_to_have_match": 25,
+    "experience_relevance": 15
+  },
+  "context": "Evaluate for a backend engineering role. Prioritize server-side development, API design, database skills, and scalability thinking. Practical project experience matters more than certifications."
+}

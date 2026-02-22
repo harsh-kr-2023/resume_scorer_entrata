@@ -1,0 +1,22 @@
+{
+  "must_have": [
+    "Python with data science libraries (pandas, numpy, scikit-learn)",
+    "Statistics and probability",
+    "Machine learning fundamentals",
+    "SQL for data analysis",
+    "Data visualization"
+  ],
+  "nice_to_have": [
+    "Deep learning frameworks (TensorFlow/PyTorch)",
+    "Cloud ML platforms (SageMaker/Vertex AI)",
+    "A/B testing and experimentation",
+    "Big data tools (Spark/Hadoop)",
+    "MLOps and model deployment"
+  ],
+  "weights": {
+    "must_have_match": 55,
+    "nice_to_have_match": 30,
+    "experience_relevance": 15
+  },
+  "context": "Evaluate for a data science role. Prioritize statistical thinking, ML knowledge, and ability to derive insights from data. Research publications and Kaggle experience are a plus."
+}

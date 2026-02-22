@@ -1,0 +1,29 @@
+{
+  "role": "data_scientist",
+  "resume_name": "Harsh_Kr_Resume_2101.pdf",
+  "score": 15,
+  "justification": "The candidate has strong backend development experience, particularly with PHP and Laravel, and has worked with SQL databases. However, the resume does not demonstrate any of the must-have skills for the data science role, such as Python, statistics, machine learning, and data visualization. The candidate also lacks the nice-to-have skills.",
+  "gaps": [
+    "Lack of Python programming experience",
+    "No demonstrated knowledge of statistics and probability",
+    "No experience with machine learning",
+    "No experience with data visualization",
+    "No experience with deep learning frameworks",
+    "No experience with cloud ML platforms",
+    "No experience with A/B testing and experimentation",
+    "No experience with big data tools",
+    "No experience with MLOps and model deployment"
+  ],
+  "suggestions": [
+    "Can you describe any experience you have with Python, particularly with data science libraries like pandas, numpy, or scikit-learn?",
+    "Can you discuss any projects or experiences where you applied statistics or probability?",
+    "Have you had any exposure to machine learning, either through projects, coursework, or self-study?",
+    "Have you ever had to visualize data for a project or presentation? If so, what tools did you use?",
+    "Can you discuss any experience you have with deep learning frameworks like TensorFlow or PyTorch?",
+    "Have you ever used cloud ML platforms like SageMaker or Vertex AI?",
+    "Have you ever conducted A/B testing or other types of experimentation?",
+    "Do you have any experience with big data tools like Spark or Hadoop?",
+    "Have you ever been involved in MLOps or model deployment?"
+  ],
+  "created_at": "2026-02-21T10:48:10.008425"
+}

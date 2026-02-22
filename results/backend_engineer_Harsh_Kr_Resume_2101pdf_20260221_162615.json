@@ -1,0 +1,21 @@
+{
+  "role": "backend_engineer",
+  "resume_name": "Harsh_Kr_Resume_2101.pdf",
+  "score": 70,
+  "justification": "The candidate has strong experience in backend development, particularly with PHP and Laravel, and has demonstrated skills in SQL and database design, as well as Git version control. However, the candidate lacks clear experience with data structures and algorithms, and does not demonstrate any experience with the nice-to-have skills.",
+  "gaps": [
+    "No clear experience with data structures and algorithms",
+    "No experience with cloud platforms, Docker, CI/CD pipelines, system design, microservices architecture, message queues, or monitoring and observability"
+  ],
+  "suggestions": [
+    "Can you describe a project where you had to use complex data structures and algorithms?",
+    "Have you had any experience with cloud platforms such as AWS, GCP, or Azure?",
+    "Can you discuss any experience you have with Docker and containerization?",
+    "Have you ever set up or worked with CI/CD pipelines?",
+    "Can you describe your experience with system design?",
+    "Have you worked with a microservices architecture before?",
+    "Do you have experience with message queues like Kafka or RabbitMQ?",
+    "Can you discuss your experience with monitoring and observability in your projects?"
+  ],
+  "created_at": "2026-02-21T16:26:15.613726"
+}

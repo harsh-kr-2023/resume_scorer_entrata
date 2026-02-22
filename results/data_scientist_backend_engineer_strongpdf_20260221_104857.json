@@ -1,0 +1,21 @@
+{
+  "role": "data_scientist",
+  "resume_name": "backend_engineer_strong.pdf",
+  "score": 35,
+  "justification": "The candidate has strong backend development experience, particularly with Python and SQL, which are relevant to the job description. However, the resume lacks clear evidence of experience in data science libraries, machine learning, statistics, and probability, which are must-have skills for the role.",
+  "gaps": [
+    "Lack of experience with data science libraries (pandas, numpy, scikit-learn)",
+    "No evidence of knowledge in statistics and probability",
+    "No demonstrated experience in machine learning fundamentals",
+    "No experience with AI-powered development tools",
+    "No experience working with offshore teams"
+  ],
+  "suggestions": [
+    "Can you describe any experience you have with data science libraries such as pandas, numpy, or scikit-learn?",
+    "Can you provide examples of how you have used statistics and probability in your work?",
+    "Do you have any experience with machine learning? If so, can you provide examples?",
+    "Have you ever used AI-powered development tools such as Cursor AI, GitHub Copilot, or Claude Code?",
+    "Have you ever worked with offshore teams? If so, can you describe your experience?"
+  ],
+  "created_at": "2026-02-21T10:48:57.917865"
+}

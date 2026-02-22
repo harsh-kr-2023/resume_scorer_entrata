@@ -1,0 +1,23 @@
+{
+  "must_have": [
+    "JavaScript/TypeScript",
+    "React or Vue or Angular",
+    "HTML5 and CSS3",
+    "Responsive design",
+    "REST API consumption"
+  ],
+  "nice_to_have": [
+    "State management (Redux/Zustand)",
+    "Testing (Jest/Cypress)",
+    "Accessibility (WCAG)",
+    "Performance optimization",
+    "Build tools (Webpack/Vite)",
+    "Design systems/component libraries"
+  ],
+  "weights": {
+    "must_have_match": 55,
+    "nice_to_have_match": 30,
+    "experience_relevance": 15
+  },
+  "context": "Evaluate for a frontend engineering role. Prioritize UI development skills, component architecture, and user experience thinking. Portfolio or live project links are a strong signal."
+}

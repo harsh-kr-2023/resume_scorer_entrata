@@ -1,0 +1,19 @@
+{
+  "role": "frontend_engineer",
+  "resume_name": "Harsh_Kr_Resume_2101.pdf",
+  "score": 35,
+  "justification": "The candidate has a strong background in backend development, particularly with PHP and Laravel, but lacks the frontend skills required for this role. They have some working knowledge of HTML, CSS, and JavaScript, but no evidence of experience with JavaScript frameworks or other must-have skills.",
+  "gaps": [
+    "No evidence of experience with JavaScript/TypeScript, React/Vue/Angular, responsive design, REST API consumption",
+    "No evidence of experience with state management, testing, accessibility, performance optimization, build tools, or design systems/component libraries",
+    "No evidence of experience leveraging AI-powered development tools"
+  ],
+  "suggestions": [
+    "Can you provide examples of projects where you used JavaScript/TypeScript, React/Vue/Angular?",
+    "Can you describe your experience with responsive design and REST API consumption?",
+    "Have you used state management tools like Redux/Zustand in your projects?",
+    "Can you describe your experience with testing, accessibility, performance optimization, build tools, or design systems/component libraries?",
+    "Have you ever used AI-powered development tools like Cursor AI, GitHub Copilot, Claude Code?"
+  ],
+  "created_at": "2026-02-21T10:47:40.770853"
+}

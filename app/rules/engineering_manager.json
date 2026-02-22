@@ -1,0 +1,23 @@
+{
+  "must_have": [
+    "Engineering team leadership",
+    "Technical background in software development",
+    "Project delivery and execution",
+    "People management and mentoring",
+    "Cross-functional collaboration"
+  ],
+  "nice_to_have": [
+    "Agile/Scrum methodology",
+    "Hiring and team building",
+    "Technical architecture decisions",
+    "Stakeholder management",
+    "Budget and resource planning",
+    "Incident management"
+  ],
+  "weights": {
+    "must_have_match": 50,
+    "nice_to_have_match": 25,
+    "experience_relevance": 25
+  },
+  "context": "Evaluate for an engineering manager role. Prioritize leadership evidence, team growth, and delivery track record over deep technical skills. Look for impact at team/org level, not just individual contributions."
+}

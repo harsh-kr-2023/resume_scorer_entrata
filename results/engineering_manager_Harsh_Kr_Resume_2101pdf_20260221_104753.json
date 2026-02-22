@@ -1,0 +1,23 @@
+{
+  "role": "engineering_manager",
+  "resume_name": "Harsh_Kr_Resume_2101.pdf",
+  "score": 35,
+  "justification": "The candidate has a strong technical background in software development, particularly in backend development and database management. However, there is no clear evidence of leadership, people management, or cross-functional collaboration skills. The candidate's experience is relevant to the role, but lacks in key areas such as team leadership and project delivery.",
+  "gaps": [
+    "No evidence of engineering team leadership",
+    "No evidence of project delivery and execution",
+    "No evidence of people management and mentoring",
+    "No evidence of cross-functional collaboration",
+    "No evidence of Agile/Scrum methodology",
+    "No evidence of stakeholder management"
+  ],
+  "suggestions": [
+    "Can you provide examples of when you have led a team of engineers?",
+    "Can you describe a project you have delivered from start to finish?",
+    "Have you had any experience in mentoring or managing people?",
+    "Can you provide examples of when you have worked with cross-functional teams?",
+    "Have you worked in an Agile/Scrum environment before?",
+    "Can you describe a time when you had to manage stakeholders' expectations?"
+  ],
+  "created_at": "2026-02-21T10:47:53.978148"
+}
